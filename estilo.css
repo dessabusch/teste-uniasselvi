@@ -1,0 +1,145 @@
+html,
+body {
+    background-color: #121212;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+section {
+    align-items: center;
+    margin-top: 0%;
+}
+
+.barra {
+    background-color: #ffdd00;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+} 
+
+#title {
+    margin: 0%;
+    margin-left: 5px;
+    color: black;
+    font-family: 'Grenze';
+}
+
+.centralizado {
+    text-align: center;
+}
+
+#img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: -2px 1px 1px rgba(0, 0, 0, 0.4);
+    margin: 5%;
+}
+
+#icon {
+    width: 35px;
+    top: 3px;
+    border-radius: 50px;
+    float: left;
+    margin: 7px 3px 2px 20px;
+    box-shadow: 0 3px 2px -2px gray;
+}
+
+.card {
+    margin: 5%;
+    padding: 0.5%;
+    float: left;
+    position: relative;
+    color: #121212;
+    background-color: white;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 3%;
+    font-family: 'Work Sans';
+    vertical-align: middle;
+}
+
+.sub {
+    font-family: 'Grenze';
+}
+
+#um {
+    margin-left: 12%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 16%;
+}
+
+#dois {
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    width: 15%;
+}
+
+#tres {
+    margin-right: 8%;
+    margin-top: 16%;
+    margin-bottom: 10%;
+    width: 15%;
+}
+
+#acao {
+    color: black;
+    padding: 2.5% 25% 2.5% 25%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px black;
+    background-color: #ffdd00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin: 5%;
+    width: 5%;
+    text-decoration: none;
+    font-family: 'Work Sans';
+
+}
+
+@media screen and (max-width: 800px) {
+    html,
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .card,
+    #um,
+    #dois,
+    #tres {
+        width: 92%;
+        float: left;
+        margin: 3% 3% 3% 3%;
+        padding: 1%;
+    }
+
+    #um {
+        margin-top: 20%;
+    }
+
+    #tres {
+        padding-bottom: 4%;
+    }
+
+    #acao {
+        color: black;
+        padding: 2.5% 30% 2.5% 30%;
+        border-radius: 10px;
+        background-color: #ffdd00;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        margin: 5%;
+        width: 5%;
+        text-decoration: none;
+        font-family: 'Work Sans';
+    }
+
+    #img {
+        border-radius: 5%;
+    }
+
+}
