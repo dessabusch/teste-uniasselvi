@@ -1,7 +1,7 @@
 # Teste Uniasselvi
 
 
-Teste de replicação de site proposto pela [Uniasselvi] (https://portal.uniasselvi.com.br) em processo seletivo para *Web Design*.
+Teste de replicação de site proposto pela [Uniasselvi](https://portal.uniasselvi.com.br) em processo seletivo para *Web Design*.
 
 ## Como Visualizar o Site
 Existem duas formas de visualizar o site:
